@@ -1,0 +1,12 @@
+
+
+
+library(raster)
+
+library(terra)
+str_name<- rast("try amalie.tif")
+plot(str_name)
+
+setwd("D:/desktop/")
+str_name<-'try amalie.tif' 
+imported_raster=raster(str_name)
